@@ -17,8 +17,8 @@ client.on("message", function(message) {
     message.channel.send("Check back on Friday!")
   } else if (command == "teams") {
     message.channel.send("Teams: Writing, Art, Coding, Modelling/Anim, Misc.")
-  } else if (command == "") {
-    
+  } else if (command == "botrepo") {
+    message.channel.send("Link to Github repo: https://github.com/Lieb12/SCH3DUL3 \n Any help is appreciated!")
   }
 });
 
